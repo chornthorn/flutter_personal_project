@@ -1,0 +1,2 @@
+const String image1 = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn2.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQA_-tL18_rj9zEcjN6n41NEaJm-kRNF9UeOtvksZ4z_OW6jRA9&psig=AOvVaw091U1cVhVA9NEgg63NvAMZ&ust=1597169971808000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDbtPifkesCFQAAAAAdAAAAABAD';
+const String image2 = 'https://upload.wikimedia.org/wikipedia/en/f/f9/Baahubali_the_Conclusion.jpg';
