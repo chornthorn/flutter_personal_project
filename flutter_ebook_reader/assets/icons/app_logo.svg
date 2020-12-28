@@ -1,0 +1,8 @@
+<svg id="logo_box" data-name="logo/box" xmlns="http://www.w3.org/2000/svg" width="76" height="76" viewBox="0 0 76 76">
+    <path id="Vector" d="M60.876,76H15.124A15.115,15.115,0,0,1,0,60.876V15.124A15.115,15.115,0,0,1,15.124,0H60.876A15.115,15.115,0,0,1,76,15.124V60.876A15.115,15.115,0,0,1,60.876,76Z" fill="#fff"/>
+    <g id="logo_white" data-name="logo/white" transform="translate(13 13)">
+        <rect id="Rectangle_25" data-name="Rectangle 25" width="32.5" height="9.167" rx="4.583" transform="translate(6.667 5.833)" fill="#f56e4c"/>
+        <rect id="Rectangle_26" data-name="Rectangle 26" width="39.167" height="9.167" rx="4.583" transform="translate(6.667 35)" fill="#f56e4c"/>
+        <rect id="Rectangle_27" data-name="Rectangle 27" width="22.5" height="9.167" rx="4.583" transform="matrix(0, -1, 1, 0, 6.667, 28.333)" fill="#f56e4c"/>
+    </g>
+</svg>

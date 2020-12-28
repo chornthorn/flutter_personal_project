@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary" type="material material-accent">#f56e4c</color>
+    <color name="dark" type="material">#323438</color>
+    <color name="white" type="material">#ffffff</color>
+    <color name="grey" type="material">#a9a9a9</color>
+    <color name="success" type="material">#0abe5d</color>
+    <color name="error" type="material">#f31629</color>
+    <color name="yellow" type="material">#feb72b</color>
+    <color name="screen" type="material">#fafafa</color>
+</resources>

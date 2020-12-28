@@ -1,0 +1,63 @@
+name: cuby_ebook
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_svg:
+  provider: ^4.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_gen:
+  output: lib/utils/ # Optional (default: lib/gen/)
+  lineLength: 80 # Optional (default: 80)
+
+  # Optional
+  integrations:
+    flutter_svg: true
+#    flare_flutter: true
+
+  colors:
+    inputs:
+      - assets/colors/colors.xml
+
+# The following section is specific to Flutter.
+flutter:
+
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/images/
+  #   - images/a_dot_ham.jpeg
+
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Nunito Sans
+      fonts:
+        - asset: assets/fonts/NunitoSans/NunitoSans-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
