@@ -1,0 +1,11 @@
+const StatusSuccessCode = 200;
+const StatusFailMessage = "An error occurred";
+const RequestTimeoutCode = 408;
+const RequestTimeoutMessage = "Request timeout";
+const RequestErrorCode = 501;
+const RequestErrorMessage = "Request error";
+const ImakeTokenExpiredCode = 401;
+const ImakeTokenInvalidCode = 409;
+const AccessTokenExpireCode = 403;
+const AccessTokenInvalidCode = 403;
+const OAGAccessDeniedCode = 403;
