@@ -1,8 +1,11 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:my_movie/utils/index.dart';
+import 'package:my_movie/utils/mock_data.dart';
 import 'package:my_movie/views/home/home_movie_scroll.dart';
+import 'package:my_movie/views/movies/movie_play.dart';
 import 'package:my_movie/views/video_player/video_player.dart';
+import 'package:my_movie/views/widets/video_player/video_player.dart';
 
 class MoviePageArguments {
   static final routeName = "movies";
@@ -189,8 +192,8 @@ class _MoviePageState extends State<MoviePage> {
             child: IconButton(
               onPressed: () {
                 MaterialPageRoute route = MaterialPageRoute(
-                    builder: (context) => VideoPlayerPage(
-                          url: 'assets/videos/1.mp4',
+                    builder: (context) => MoviePlay(
+                          url: mockData["items"][1]["trailer_url"],
                         ));
                 Navigator.push(context, route);
               },
